@@ -64,7 +64,7 @@ def main():
     plt.tight_layout()
     
     plt.savefig(os.path.join(RESULTS_DIR, 'confusion_matrix.png'), dpi=300)
-    print("✅ Matrice salvata in 'results/confusion_matrix.png'")
+    print("Matrice salvata in 'results/confusion_matrix.png'")
 
     # Genera il report come dizionario
     report_dict = classification_report(
@@ -96,7 +96,7 @@ def main():
 
     plt.tight_layout()
     plt.savefig('results/f1_score_per_class.png', dpi=300)
-    print("✅ Grafico F1-Score per classe salvato in results/f1_score_per_class.png")
+    print("Grafico F1-Score per classe salvato in results/f1_score_per_class.png")
 
 if __name__ == "__main__":
     main()
