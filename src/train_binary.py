@@ -81,7 +81,7 @@ def main():
     
     plt.tight_layout()
     plt.savefig(os.path.join(RESULTS_DIR, 'binary_top2_accuracy.png'))
-    print("✅ Task Binario e salvataggio grafici completati.")
+    print("Task Binario e salvataggio grafici completati.")
 
 if __name__ == "__main__":
     main()
