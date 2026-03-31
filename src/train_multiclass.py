@@ -131,7 +131,7 @@ def main():
 
     plt.tight_layout()
     plt.savefig(os.path.join(RESULTS_DIR, 'multiclass_learning_curves.png'))
-    print("✅ Addestramento e salvataggio grafici completati.")
+    print("Addestramento e salvataggio grafici completati.")
 
 if __name__ == "__main__":
     main()
