@@ -58,7 +58,7 @@ def organizza_immagini(source_dir, dest_split_name):
         except Exception as e:
             print(f"Errore parsing {xml_file}: {e}")
 
-    print(f"✅ Completato! Spostate {count} immagini in {dest_path}")
+    print(f"Completato! Spostate {count} immagini in {dest_path}")
 
 if __name__ == "__main__":
     organizza_immagini(SOURCE_TRAIN_DIR, 'train')
